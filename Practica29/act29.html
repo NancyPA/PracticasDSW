@@ -1,0 +1,57 @@
+<script type="text/javascript">
+/*
+//4.Con For decir "Hola" 7 veces, en el 4to "soy el cuarto hola" y 
+//despues del 7mo "Acabamos de saludar"
+for (var i = 1; i < 8; i++){
+    if (i == 4){
+        alert(i+".Soy el cuarto hola");
+    } else if (i == 7){
+        alert("Acabamos de saludar");
+    } else
+    alert(i+".Hola");
+}
+*/
+
+/*
+//5.for in, forEach, for of, c/u con un arreglo de los primeros 11 meses del año
+
+//for in
+var mes ={1:"Enero",2:"Febrero",3:"Marzo",4:"Abril",5:"Mayo",6:"Junio",7:"Julio"
+            ,8:"Agosto",9:"Septiembre",10:"Octubre",11:"Noviembre"};
+
+for (const property in mes) {
+    alert(`${property}: ${mes[property]}`);
+}
+*/
+/*
+//forEach
+var mes =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio"
+            ,"Agosto","Septiembre","Octubre","Noviembre"];
+
+mes.forEach((element) => alert(element));
+*/
+/*
+//for of
+var mes =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio"
+            ,"Agosto","Septiembre","Octubre","Noviembre"];
+
+for (let value of mes) {
+  alert(value);
+}
+*/
+
+/*
+//6.lo mismo, pero con el for que queramos y omitir julio,
+//agregar el diciembre fuera del arreglo y mostrar todo con for incluido diciembre
+var mes =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio"
+            ,"Agosto","Septiembre","Octubre","Noviembre"];
+
+for (var i = 0; i < 12; i++){
+    if (i == 6){ 
+    } else if (i == 11){
+        alert("Diciembre");
+    } else
+    alert(mes[i]);
+}
+*/
+</script>
