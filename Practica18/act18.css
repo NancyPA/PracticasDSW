@@ -1,0 +1,72 @@
+*
+{/*utilizo en padding y margin con 1 para el espacio para toda la pantalla*/
+  padding: 1;
+  margin: 1;
+}
+body
+{/*utilizo para delimitar cuanta pantalla voy a utilizar*/
+height: 100vh ; 
+}
+header
+{
+    height: 20%;
+    width: 100%;
+    border-radius: 5px;
+    background: yellowgreen;
+}
+nav
+{/*utilizo el margin top y left para acomodarlo dentro del header*/
+    margin-top: 65;
+    margin-left: 10;
+    height: 50%;
+    width: 95%;
+    background: cornsilk;
+    border-radius: 5px;
+}
+#section1
+{
+    margin-top: 10;
+    display: flex;
+    height: 60%;
+    width: 100%;
+}
+#aside1
+{
+    margin: 10;
+    background: yellowgreen;
+    width: 50%;
+    border-radius: 5px;
+}
+#section2
+{/*no utilizo el display flex*/
+    margin: 10;
+    background: yellowgreen;
+    width: 50%;
+    border-radius: 5px;
+}
+#aside2
+{
+    margin-top: 60;
+    margin-left: 10;
+    height: 30%;
+    width: 90%;
+    background: cornsilk;
+    border-radius: 5px;
+}
+#aside3
+{
+    margin-top: 80;
+    margin-left: 10;
+    height: 30%;
+    width: 90%;
+    background: cornsilk;
+    border-radius: 5px;
+}
+footer
+{
+    margin-top: 20;
+    height: 15%;
+    width: 100%;
+    border-radius: 5px;
+    background: yellowgreen;
+}
