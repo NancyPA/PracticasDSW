@@ -1,0 +1,41 @@
+<body>
+<h1>Formulario de registro</h1>
+<form action="" method="get">
+<table>
+<tr>
+	<td>Nombre:</td>
+	<td><input type="text" name="nombre"  maxlength="50"/></td>
+</tr>
+<tr>
+	<td>Apellidos:</td>
+	<td><input type="text" name="apellidos"  maxlength="50"/></td>
+</tr>
+<tr>
+	<td>Sexo:</td>
+	<td>
+        <input type="radio" name="sexo"/>Hombre
+		<input type="radio" name="sexo"/>Mujer
+    </td>
+</tr>
+<tr>
+	<td>Correo:</td>
+	<td><input type="email" name="Correo"/></td>
+</tr>
+<tr>
+	<td>Población:</td>
+	<td>
+    <select name="población">
+        <option value="mexico">Mexico<option>
+        <option value="francia">Francia<option>
+    </select>
+    </td>
+</tr>
+</table>
+<br/><br/>
+<input type="checkbox" name="acuerdo"/>
+Deseo recibir información sobre novedades y ofertas.<br/><br/>
+<input type="checkbox" name="acuerdo"/>
+Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos.<br/><br/>
+<input type="submit" name="enviar" />
+</form>
+</body>
